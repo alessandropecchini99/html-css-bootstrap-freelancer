@@ -1,3 +1,29 @@
-.green {
+.white_bar {
+    width: 130px;
+    height: 0;
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.filter {
     position: relative;
+    height: fit-content;
+    background-color: green;
+}
+
+.col i {
+    color: white;
+    font-size: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.filter:hover > img {
+    opacity: 0.3;
+}
+
+.filter:hover > i {
+    opacity: 1;
 }
